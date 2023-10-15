@@ -32,6 +32,15 @@ int main()
        ans = subtraction(num1,num2);
        printf("%d",ans);
     }
+    else if(choice == 'M' || choice == 'm')
+    {
+        printf("Enter the num1: ");
+        scanf("%d",&num1);
+        printf("Enter the num2: ");
+        scanf("%d",&num2);
+        ans = multiply(num1,num2);
+        printf("%d",ans);
+    }
 
     return 0;
 }
