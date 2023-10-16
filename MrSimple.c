@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+
 int add(int num1, int num2)
 {
     return num1+num2;
@@ -16,6 +16,7 @@ float division(float num1, float num2)
 {
     return num1/num2;
 }
+int main()
 {
     int num1,num2,ans=0;
     float ans1 =0;
